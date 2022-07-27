@@ -32,7 +32,7 @@ public class MainClass {
 //		
 //		RomanConversion rc = new RomanConversion();
 //		rc.convertNumberToRoman();
-
+//
 //		ZeroMatrix zm = new ZeroMatrix();
 //		zm.removeZeroRowCol();
 
@@ -47,17 +47,18 @@ public class MainClass {
 //		pa.takeInputPolyExpression();
 		
 		
-		WordyEnough we = new WordyEnough();
-		try {
-			we.readInp();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		we.sortWords();
+//		WordyEnough we = new WordyEnough();
+//		try {
+//			we.readInp();
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		we.sortWords();
 		
-		
-		
+//		PolynominalAddition pa = new PolynominalAddition();
+//		pa.addPolynominal();
+//		
 		
 		
 		

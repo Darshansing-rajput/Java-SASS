@@ -10,7 +10,7 @@ public class RealNumber {
 		String str = sc.nextLine();
 		String g = "";
 		String j = "";
-		int i = 0;
+		int i = 0;//counter
 		for (i = 0; str.charAt(i) != '.'; i++) {
 			j = j + str.charAt(i);
 		}

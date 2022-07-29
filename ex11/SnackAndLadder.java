@@ -7,27 +7,28 @@ public class SnackAndLadder {
 	public void playSnackAndLadder() {
 		
 		System.out.println("Enter the input values : ");
-		int valueA = 0;
-		int valueB = 0;
+		int valueA = 0; //player 1
+		int valueB = 0; //player 2
 
 		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
+		int N = sc.nextInt(); //no. of snaks and ladder
 
 		Map<Integer, Integer> map = new HashMap<>();
 
 		int i = 0;
 		while (i < N) {
+			      //(snake and ladder) (start , end )  
 			map.put(sc.nextInt(), sc.nextInt());
 			++i;
 
 		}
-
-		int chances = sc.nextInt();
+               
+		int chances = sc.nextInt(); //no. of moves
 
 		i = 0; 
 		int a, b;
 
-		boolean chanceA = true;
+		boolean chanceA = true; //first chance to player 1
 		while (i < chances) {
 			if (chanceA) {
 
